@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: black;
+  
+
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    height: 518px;
+}
+#head2{
+    display: block;
+    
+}
+#head3{
+    margin-top: 40px;
+}
+button{
+    display: block;
+    margin: 20px 0px;
+    padding: 7px 10px;
+    border: 2px solid rgb(87, 79, 79);
+    border-radius: 5px;
+    background-color: grey;
+  
+}
+button:hover{
+
+    background-color: grey;
+    color:black;
+}
+a{
+    color: white;
+    background-color: grey;
+}
+a:hover{
+    color: black;
+}
+h1{
+    color: beige;
+}
+@media(max-width:415px){
+    h1{
+        font-size: 1.5em;
+    }
+}

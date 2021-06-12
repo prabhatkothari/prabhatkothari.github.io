@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+}
+.divitem{
+    height: 55px;
+    width: 55px;
+    background-color: aqua;
+    margin: 3px;
+    display: inline-block;
+
+    border-radius: 8px;
+
+}
+.divhead{
+    display: flex;
+    justify-content: center;
+
+}
+.div-main-head{
+    margin: 10px;
+}
+.divitem2{
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    margin: 3px;
+    display: inline-block;
+
+    border-radius: 8px;
+
+}
+.divhead2{
+    display: flex;
+    justify-content: center;
+
+}
+.div-main-head2{
+    background-color: rgb(202, 199, 199);
+    margin: auto;
+    width: 450px;
+}
+.container{
+    height: 30px;
+    width: 100%;
+ 
+   
+}
+
+#display{
+    width: 100%;
+    font-size: 40px;
+
+    color: white;
+    display: inline;
+
+}
+
+.buttons{
+display: block;
+}
+#reset{
+    display: none;
+}
+.display{
+    display: none;
+}
+@media(max-width:510px){
+
+    #display{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    .divitem2 {
+        height: 40px;
+        width: 40px;
+    }
+    .divitem {
+        height: 40px;
+        width: 40px;
+    }
+    .div-main-head2{
+        background-color: rgb(202, 199, 199);
+        margin: auto;
+        width: 230px;
+    }
+}
+button{
+    padding: 5px 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+a:hover{
+    color:black;
+}
+#divQuit{
+    margin-top: 5px;
+}
